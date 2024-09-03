@@ -64,17 +64,30 @@
 
 
 
-const person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 50,
-    eyeColor: "blue"
-};
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     eyeColor: "blue"
+// };
 
 
-// let age = person["age"];
-let age = person[2];
+// // let age = person["age"];
+// let age = person[2];
 
-console.log(age)
+// console.log(age)
 
-console.log(person.age)
+// console.log(person.age)
+
+
+
+// Original Array
+// let courses = ["HTML", "CSS", "JavaScript", "React"];
+
+// // Joining the array elements
+// console.log(courses.join('|'));
+
+
+
+const arr = [30, 40, 50, 60, 70];
+const a = arr.shift
