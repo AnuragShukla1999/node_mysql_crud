@@ -411,3 +411,37 @@
 // const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // const { min, max } = findMinMax(arr);
 // console.log(`min-${min} max-${max}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+/// reverse the array
+
+function reverseArray(arr) {
+    let start = 0; 
+    let end = arr.length - 1; 
+
+    while (start < end) {
+        let a = arr[start];
+        arr[start] = arr[end];
+        arr[end] = a;
+
+        start++;
+        end--;
+    }
+
+    return arr; 
+}
+
+const arr = [1, 423, 6, 46, 34, 23, 13, 53, 4];
+const reversedArr = reverseArray(arr);
+console.log(reversedArr); 
