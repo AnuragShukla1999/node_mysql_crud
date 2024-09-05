@@ -426,22 +426,40 @@
 
 /// reverse the array
 
-function reverseArray(arr) {
-    let start = 0; 
-    let end = arr.length - 1; 
+// function reverseArray(arr) {
+//     let start = 0; 
+//     let end = arr.length - 1; 
 
-    while (start < end) {
-        let a = arr[start];
-        arr[start] = arr[end];
-        arr[end] = a;
+//     while (start < end) {
+//         let a = arr[start];
+//         arr[start] = arr[end];
+//         arr[end] = a;
 
-        start++;
-        end--;
-    }
+//         start++;
+//         end--;
+//     }
 
-    return arr; 
-}
+//     return arr; 
+// }
 
-const arr = [1, 423, 6, 46, 34, 23, 13, 53, 4];
-const reversedArr = reverseArray(arr);
-console.log(reversedArr); 
+// const arr = [1, 423, 6, 46, 34, 23, 13, 53, 4];
+// const reversedArr = reverseArray(arr);
+// console.log(reversedArr); 
+
+
+
+
+
+
+
+
+// let num = 47.475654356345345337;
+// let result = Math.round(num * 100) / 100;
+// console.log(result); 
+
+
+
+
+// let num = 47.469580346564676654356345345337;
+// let result = Math.floor(num * 100) / 100;
+// console.log(result); // Output: 47.47
